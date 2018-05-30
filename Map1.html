@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_a99fd8885bfd44c5a52d405998836103 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a99fd8885bfd44c5a52d405998836103" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_a99fd8885bfd44c5a52d405998836103 = L.map(
+                                  'map_a99fd8885bfd44c5a52d405998836103',
+                                  {center: [12.93344282897595,77.61426454051069],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_4a56da75dd244f3fb20fe2bb06e3ff5e = L.tileLayer(
+                'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_a99fd8885bfd44c5a52d405998836103);
+        
+    
+            var feature_group_6bd615cedfd24f70b99aff96fc814991 = L.featureGroup(
+                ).addTo(map_a99fd8885bfd44c5a52d405998836103);
+        
+    
+
+            var marker_e2aed20b9a8048e5a78f830594c1a490 = L.marker(
+                [12.93344282897595,77.61426454051069],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_9a3ec98d728840d090a4a1bf00f103b7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e2aed20b9a8048e5a78f830594c1a490.setIcon(icon_9a3ec98d728840d090a4a1bf00f103b7);
+            
+    
+            var popup_415369a90b164bb79df06cf5fb739683 = L.popup({maxWidth: '300'});
+
+            
+                var html_2d86cf7e338b481faaf7f2d67f6073c0 = $('<div id="html_2d86cf7e338b481faaf7f2d67f6073c0" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_415369a90b164bb79df06cf5fb739683.setContent(html_2d86cf7e338b481faaf7f2d67f6073c0);
+            
+
+            marker_e2aed20b9a8048e5a78f830594c1a490.bindPopup(popup_415369a90b164bb79df06cf5fb739683);
+
+            
+        
+    
+
+            var marker_9ff6d4eb0a364a69aaf0fd9707adde0c = L.marker(
+                [12.932947240497668,77.5825363305544],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_106e4fe138ca48a6a03f283ed4ba8230 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9ff6d4eb0a364a69aaf0fd9707adde0c.setIcon(icon_106e4fe138ca48a6a03f283ed4ba8230);
+            
+    
+            var popup_4904aeed6c694e0ca67ec3c6b980bcd2 = L.popup({maxWidth: '300'});
+
+            
+                var html_4bad9c0b44ec450e92f9557a0012b184 = $('<div id="html_4bad9c0b44ec450e92f9557a0012b184" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_4904aeed6c694e0ca67ec3c6b980bcd2.setContent(html_4bad9c0b44ec450e92f9557a0012b184);
+            
+
+            marker_9ff6d4eb0a364a69aaf0fd9707adde0c.bindPopup(popup_4904aeed6c694e0ca67ec3c6b980bcd2);
+
+            
+        
+    
+
+            var marker_fa2fe8f1720c411480a008a159b39dd3 = L.marker(
+                [12.98246025089549,77.72186148869667],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_a5ae0729304f4f3688ed820c153b2c8b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fa2fe8f1720c411480a008a159b39dd3.setIcon(icon_a5ae0729304f4f3688ed820c153b2c8b);
+            
+    
+            var popup_1ad892aadc4c4a2992c59fefd46f8063 = L.popup({maxWidth: '300'});
+
+            
+                var html_196170412b544ec1bbb52ae083447fca = $('<div id="html_196170412b544ec1bbb52ae083447fca" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_1ad892aadc4c4a2992c59fefd46f8063.setContent(html_196170412b544ec1bbb52ae083447fca);
+            
+
+            marker_fa2fe8f1720c411480a008a159b39dd3.bindPopup(popup_1ad892aadc4c4a2992c59fefd46f8063);
+
+            
+        
+    
+
+            var marker_4b16763f6ebf4ca79fc47a0ee68902f1 = L.marker(
+                [12.979219695211874,77.64073977619283],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_11b880b43fa84dda88f8fdeba8f590c5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4b16763f6ebf4ca79fc47a0ee68902f1.setIcon(icon_11b880b43fa84dda88f8fdeba8f590c5);
+            
+    
+            var popup_d0e682e3637a433ebd7be3014e83ff44 = L.popup({maxWidth: '300'});
+
+            
+                var html_2bb941814b6640c4a20270f151bd6222 = $('<div id="html_2bb941814b6640c4a20270f151bd6222" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_d0e682e3637a433ebd7be3014e83ff44.setContent(html_2bb941814b6640c4a20270f151bd6222);
+            
+
+            marker_4b16763f6ebf4ca79fc47a0ee68902f1.bindPopup(popup_d0e682e3637a433ebd7be3014e83ff44);
+
+            
+        
+    
+
+            var marker_d7b0930991ce4ee8ac594ffb00c95df2 = L.marker(
+                [12.998309485708504,77.56945976452197],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_d7504fd3e529446d9a8bca4d793f2d78 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d7b0930991ce4ee8ac594ffb00c95df2.setIcon(icon_d7504fd3e529446d9a8bca4d793f2d78);
+            
+    
+            var popup_b895fc8c5b4041afb3285475e8c0254e = L.popup({maxWidth: '300'});
+
+            
+                var html_45ab707952a946899a9e7cadad6a180b = $('<div id="html_45ab707952a946899a9e7cadad6a180b" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_b895fc8c5b4041afb3285475e8c0254e.setContent(html_45ab707952a946899a9e7cadad6a180b);
+            
+
+            marker_d7b0930991ce4ee8ac594ffb00c95df2.bindPopup(popup_b895fc8c5b4041afb3285475e8c0254e);
+
+            
+        
+    
+
+            var marker_d3da5d9795b244a8808478d1c81dd718 = L.marker(
+                [12.971801622357315,77.60103059863826],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_88f2cb8f60d14cbcbf25d1007bd64026 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d3da5d9795b244a8808478d1c81dd718.setIcon(icon_88f2cb8f60d14cbcbf25d1007bd64026);
+            
+    
+            var popup_6915a807d83b4730822b247ef0db68f0 = L.popup({maxWidth: '300'});
+
+            
+                var html_0c6a3998d8bf4a03ac639dff03b79df5 = $('<div id="html_0c6a3998d8bf4a03ac639dff03b79df5" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_6915a807d83b4730822b247ef0db68f0.setContent(html_0c6a3998d8bf4a03ac639dff03b79df5);
+            
+
+            marker_d3da5d9795b244a8808478d1c81dd718.bindPopup(popup_6915a807d83b4730822b247ef0db68f0);
+
+            
+        
+    
+
+            var marker_086498c1f9f4459e86e6d2b7b7af5651 = L.marker(
+                [12.971814708809388,77.5958776473999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_370f12b5bcc84c7e9d755b0f5162778e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_086498c1f9f4459e86e6d2b7b7af5651.setIcon(icon_370f12b5bcc84c7e9d755b0f5162778e);
+            
+    
+            var popup_330c3aea4cc74798936dbe53eec0be12 = L.popup({maxWidth: '300'});
+
+            
+                var html_2cbcc03fb2f44e84b15406c6dc2c1452 = $('<div id="html_2cbcc03fb2f44e84b15406c6dc2c1452" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_330c3aea4cc74798936dbe53eec0be12.setContent(html_2cbcc03fb2f44e84b15406c6dc2c1452);
+            
+
+            marker_086498c1f9f4459e86e6d2b7b7af5651.bindPopup(popup_330c3aea4cc74798936dbe53eec0be12);
+
+            
+        
+    
+
+            var marker_7a14823bc76a4ed6a730d5e4043fb53c = L.marker(
+                [12.953983362173314,77.56886209640857],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_ae60da0ea01149d5892c1da5dd5e0d16 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7a14823bc76a4ed6a730d5e4043fb53c.setIcon(icon_ae60da0ea01149d5892c1da5dd5e0d16);
+            
+    
+            var popup_2b509bb3e113479e8a193c801752f177 = L.popup({maxWidth: '300'});
+
+            
+                var html_7bb2475c60504c1699a65529cbbe0f48 = $('<div id="html_7bb2475c60504c1699a65529cbbe0f48" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_2b509bb3e113479e8a193c801752f177.setContent(html_7bb2475c60504c1699a65529cbbe0f48);
+            
+
+            marker_7a14823bc76a4ed6a730d5e4043fb53c.bindPopup(popup_2b509bb3e113479e8a193c801752f177);
+
+            
+        
+    
+
+            var marker_826db5a3304747e3ad2e7957a7922ece = L.marker(
+                [12.977042175203783,77.59527683258057],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_16c7447620fa43b8a3669699a064b56e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_826db5a3304747e3ad2e7957a7922ece.setIcon(icon_16c7447620fa43b8a3669699a064b56e);
+            
+    
+            var popup_3148adb91a7845859123cd16c54f5ce4 = L.popup({maxWidth: '300'});
+
+            
+                var html_7f4e052029294157b4668d2d15ee1d8c = $('<div id="html_7f4e052029294157b4668d2d15ee1d8c" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_3148adb91a7845859123cd16c54f5ce4.setContent(html_7f4e052029294157b4668d2d15ee1d8c);
+            
+
+            marker_826db5a3304747e3ad2e7957a7922ece.bindPopup(popup_3148adb91a7845859123cd16c54f5ce4);
+
+            
+        
+    
+
+            var marker_9d0e17de800e4b6eb594fab64d0fef5a = L.marker(
+                [12.976153803934508,77.60161627722],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_729aad2a84da4f2c89a590f9291d68a7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9d0e17de800e4b6eb594fab64d0fef5a.setIcon(icon_729aad2a84da4f2c89a590f9291d68a7);
+            
+    
+            var popup_7336f1c04a8544e9b93646f05d3e9151 = L.popup({maxWidth: '300'});
+
+            
+                var html_7a87c3aba5e54d6991549e7867675783 = $('<div id="html_7a87c3aba5e54d6991549e7867675783" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_7336f1c04a8544e9b93646f05d3e9151.setContent(html_7a87c3aba5e54d6991549e7867675783);
+            
+
+            marker_9d0e17de800e4b6eb594fab64d0fef5a.bindPopup(popup_7336f1c04a8544e9b93646f05d3e9151);
+
+            
+        
+    
+
+            var marker_1dcc6767560f40d8a3deb43bc004abdb = L.marker(
+                [13.011246545590584,77.55500932597828],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_7d4638a40dd643eab56cd03a00160b9b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1dcc6767560f40d8a3deb43bc004abdb.setIcon(icon_7d4638a40dd643eab56cd03a00160b9b);
+            
+    
+            var popup_32de682567da4b18aab60fe5349e132a = L.popup({maxWidth: '300'});
+
+            
+                var html_50abfe4de77644d1bf57c817a4addbb5 = $('<div id="html_50abfe4de77644d1bf57c817a4addbb5" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_32de682567da4b18aab60fe5349e132a.setContent(html_50abfe4de77644d1bf57c817a4addbb5);
+            
+
+            marker_1dcc6767560f40d8a3deb43bc004abdb.bindPopup(popup_32de682567da4b18aab60fe5349e132a);
+
+            
+        
+    
+
+            var marker_91bf4200b2934243ba382eea4deeea02 = L.marker(
+                [12.973457334267048,77.61828850236205],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_252bbc019ce545bdb595c0980a490ed4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_91bf4200b2934243ba382eea4deeea02.setIcon(icon_252bbc019ce545bdb595c0980a490ed4);
+            
+    
+            var popup_883fb5edb93e47b4a5918996d8988810 = L.popup({maxWidth: '300'});
+
+            
+                var html_01b329de47784b6581ac22018bd97e97 = $('<div id="html_01b329de47784b6581ac22018bd97e97" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_883fb5edb93e47b4a5918996d8988810.setContent(html_01b329de47784b6581ac22018bd97e97);
+            
+
+            marker_91bf4200b2934243ba382eea4deeea02.bindPopup(popup_883fb5edb93e47b4a5918996d8988810);
+
+            
+        
+    
+
+            var marker_eab07f95687b411792d6650b7895dcf4 = L.marker(
+                [12.987156756402875,77.59483450996156],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_d9e81b2aad6644e39124ef205cfcab10 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_eab07f95687b411792d6650b7895dcf4.setIcon(icon_d9e81b2aad6644e39124ef205cfcab10);
+            
+    
+            var popup_0440926a14a24ce8afc2154fe6b00394 = L.popup({maxWidth: '300'});
+
+            
+                var html_cb0dba18a6ea4ec49be512e041abcf01 = $('<div id="html_cb0dba18a6ea4ec49be512e041abcf01" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_0440926a14a24ce8afc2154fe6b00394.setContent(html_cb0dba18a6ea4ec49be512e041abcf01);
+            
+
+            marker_eab07f95687b411792d6650b7895dcf4.bindPopup(popup_0440926a14a24ce8afc2154fe6b00394);
+
+            
+        
+    
+
+            var marker_424150cee5ef47c6930411339d64e389 = L.marker(
+                [12.970139599197337,77.61085658133437],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_6a2a7576a2a748a1908956f784898a9a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_424150cee5ef47c6930411339d64e389.setIcon(icon_6a2a7576a2a748a1908956f784898a9a);
+            
+    
+            var popup_3bf11f0398e44fe78bdfa95f158905f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_67dd54d7f85f4a518a373d112ed9666a = $('<div id="html_67dd54d7f85f4a518a373d112ed9666a" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_3bf11f0398e44fe78bdfa95f158905f6.setContent(html_67dd54d7f85f4a518a373d112ed9666a);
+            
+
+            marker_424150cee5ef47c6930411339d64e389.bindPopup(popup_3bf11f0398e44fe78bdfa95f158905f6);
+
+            
+        
+    
+
+            var marker_74b63c82bc014204921630adf6e7995e = L.marker(
+                [12.984572066608893,77.58489294114838],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_5bbfaeae850c4451b77726dd4cc76423 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_74b63c82bc014204921630adf6e7995e.setIcon(icon_5bbfaeae850c4451b77726dd4cc76423);
+            
+    
+            var popup_060e8d2cd4de4bdeaac6ebea7d023219 = L.popup({maxWidth: '300'});
+
+            
+                var html_769140a3ed1646d9b7e8d6c8885a94ba = $('<div id="html_769140a3ed1646d9b7e8d6c8885a94ba" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_060e8d2cd4de4bdeaac6ebea7d023219.setContent(html_769140a3ed1646d9b7e8d6c8885a94ba);
+            
+
+            marker_74b63c82bc014204921630adf6e7995e.bindPopup(popup_060e8d2cd4de4bdeaac6ebea7d023219);
+
+            
+        
+    
+
+            var marker_9dfcd2c421704488aa1c81c4acba22a3 = L.marker(
+                [12.979096175904914,77.64406308459338],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_1fcecf402c8346ffb3fed54ad03a7786 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9dfcd2c421704488aa1c81c4acba22a3.setIcon(icon_1fcecf402c8346ffb3fed54ad03a7786);
+            
+    
+            var popup_58f58a25de20416d977dd5e6f31e3306 = L.popup({maxWidth: '300'});
+
+            
+                var html_5100bf4830bf4ccd8482994b6bccb482 = $('<div id="html_5100bf4830bf4ccd8482994b6bccb482" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_58f58a25de20416d977dd5e6f31e3306.setContent(html_5100bf4830bf4ccd8482994b6bccb482);
+            
+
+            marker_9dfcd2c421704488aa1c81c4acba22a3.bindPopup(popup_58f58a25de20416d977dd5e6f31e3306);
+
+            
+        
+    
+
+            var marker_8a79206c4736452998d7668e114d367b = L.marker(
+                [13.168697398893203,77.63238890489083],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_d80fbea5df104c88821195a49d26629e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8a79206c4736452998d7668e114d367b.setIcon(icon_d80fbea5df104c88821195a49d26629e);
+            
+    
+            var popup_3d335ae96eee42bea20f0b8d5229f367 = L.popup({maxWidth: '300'});
+
+            
+                var html_6ee66b5bb3d8451e8da6e383ca7bb5fc = $('<div id="html_6ee66b5bb3d8451e8da6e383ca7bb5fc" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_3d335ae96eee42bea20f0b8d5229f367.setContent(html_6ee66b5bb3d8451e8da6e383ca7bb5fc);
+            
+
+            marker_8a79206c4736452998d7668e114d367b.bindPopup(popup_3d335ae96eee42bea20f0b8d5229f367);
+
+            
+        
+    
+
+            var marker_c12b811471be486782cfcbcdbe06ba71 = L.marker(
+                [12.97198038085137,77.59606565238312],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_8ed55e71b2784e20be90e0cb1cdc4213 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c12b811471be486782cfcbcdbe06ba71.setIcon(icon_8ed55e71b2784e20be90e0cb1cdc4213);
+            
+    
+            var popup_9aa0ac52a4584e25960a21932ae1aee9 = L.popup({maxWidth: '300'});
+
+            
+                var html_56851e68c2e642839419a44fcafa8a68 = $('<div id="html_56851e68c2e642839419a44fcafa8a68" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_9aa0ac52a4584e25960a21932ae1aee9.setContent(html_56851e68c2e642839419a44fcafa8a68);
+            
+
+            marker_c12b811471be486782cfcbcdbe06ba71.bindPopup(popup_9aa0ac52a4584e25960a21932ae1aee9);
+
+            
+        
+    
+
+            var marker_1002e8b21d844eea90805101fd9591f4 = L.marker(
+                [12.96696543798237,77.59576766303545],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_9733e41b3dd44ab281786128be66e147 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1002e8b21d844eea90805101fd9591f4.setIcon(icon_9733e41b3dd44ab281786128be66e147);
+            
+    
+            var popup_6096da29caf44e3d9e108590cc565312 = L.popup({maxWidth: '300'});
+
+            
+                var html_f4626bfcb80e49ec9a515c5b8e9b271c = $('<div id="html_f4626bfcb80e49ec9a515c5b8e9b271c" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_6096da29caf44e3d9e108590cc565312.setContent(html_f4626bfcb80e49ec9a515c5b8e9b271c);
+            
+
+            marker_1002e8b21d844eea90805101fd9591f4.bindPopup(popup_6096da29caf44e3d9e108590cc565312);
+
+            
+        
+    
+
+            var marker_f4ab367f1c9147f4a91d789608fe977d = L.marker(
+                [12.967754615278329,77.60007264264614],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_d0a9f745f9214fac92dc78ac749066d4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f4ab367f1c9147f4a91d789608fe977d.setIcon(icon_d0a9f745f9214fac92dc78ac749066d4);
+            
+    
+            var popup_313bd08c2fd84e4084f6fbbc192db381 = L.popup({maxWidth: '300'});
+
+            
+                var html_a4b7af64e6ed4a459f39d0a1f0a95629 = $('<div id="html_a4b7af64e6ed4a459f39d0a1f0a95629" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_313bd08c2fd84e4084f6fbbc192db381.setContent(html_a4b7af64e6ed4a459f39d0a1f0a95629);
+            
+
+            marker_f4ab367f1c9147f4a91d789608fe977d.bindPopup(popup_313bd08c2fd84e4084f6fbbc192db381);
+
+            
+        
+    
+
+            var marker_a167fb5bf40f4c9eac2068f924f0b17b = L.marker(
+                [12.991665958945687,77.59420704126842],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_5caf7c661cbd44239db36a294c3b8969 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a167fb5bf40f4c9eac2068f924f0b17b.setIcon(icon_5caf7c661cbd44239db36a294c3b8969);
+            
+    
+            var popup_3415c74f07de4efab8f3a8643833ebfe = L.popup({maxWidth: '300'});
+
+            
+                var html_a0cde609323f478798ed35d11ef93c57 = $('<div id="html_a0cde609323f478798ed35d11ef93c57" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_3415c74f07de4efab8f3a8643833ebfe.setContent(html_a0cde609323f478798ed35d11ef93c57);
+            
+
+            marker_a167fb5bf40f4c9eac2068f924f0b17b.bindPopup(popup_3415c74f07de4efab8f3a8643833ebfe);
+
+            
+        
+    
+
+            var marker_de1d112989404c66bd9b40e56f8a4e08 = L.marker(
+                [12.966741280202402,77.60873291751892],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_064c9d9796a84f95b5f500d79a90e99b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_de1d112989404c66bd9b40e56f8a4e08.setIcon(icon_064c9d9796a84f95b5f500d79a90e99b);
+            
+    
+            var popup_2458e34f4d254922b07bd2169a0e5487 = L.popup({maxWidth: '300'});
+
+            
+                var html_cafd072ef90b498e920956519b7b58b7 = $('<div id="html_cafd072ef90b498e920956519b7b58b7" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_2458e34f4d254922b07bd2169a0e5487.setContent(html_cafd072ef90b498e920956519b7b58b7);
+            
+
+            marker_de1d112989404c66bd9b40e56f8a4e08.bindPopup(popup_2458e34f4d254922b07bd2169a0e5487);
+
+            
+        
+    
+
+            var marker_9d248f9578c045fd8a52424a29162fcd = L.marker(
+                [12.835434944360417,77.40142722976184],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_692ac28617b54d12a21dd32d91cfe930 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9d248f9578c045fd8a52424a29162fcd.setIcon(icon_692ac28617b54d12a21dd32d91cfe930);
+            
+    
+            var popup_18a1f7d9f5834180a5239abe7d9711cd = L.popup({maxWidth: '300'});
+
+            
+                var html_eb22ab369fcd490399a10ef1ec0611b4 = $('<div id="html_eb22ab369fcd490399a10ef1ec0611b4" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_18a1f7d9f5834180a5239abe7d9711cd.setContent(html_eb22ab369fcd490399a10ef1ec0611b4);
+            
+
+            marker_9d248f9578c045fd8a52424a29162fcd.bindPopup(popup_18a1f7d9f5834180a5239abe7d9711cd);
+
+            
+        
+    
+
+            var marker_9a47eec4ad2549cba6af79b0fdee44eb = L.marker(
+                [12.911590581803074,77.67616892974699],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_8907da690bb64586af1e69464a7d8ecc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9a47eec4ad2549cba6af79b0fdee44eb.setIcon(icon_8907da690bb64586af1e69464a7d8ecc);
+            
+    
+            var popup_f5145caee1c84b5f9407be540cf1fec8 = L.popup({maxWidth: '300'});
+
+            
+                var html_1afb89462dc9445e859e5d0733a5e0dc = $('<div id="html_1afb89462dc9445e859e5d0733a5e0dc" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_f5145caee1c84b5f9407be540cf1fec8.setContent(html_1afb89462dc9445e859e5d0733a5e0dc);
+            
+
+            marker_9a47eec4ad2549cba6af79b0fdee44eb.bindPopup(popup_f5145caee1c84b5f9407be540cf1fec8);
+
+            
+        
+    
+
+            var marker_94b9cdbac49a4328a25672056555b7dd = L.marker(
+                [12.939425484210648,77.57138548760742],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_909a1ba358ff43b88b6b53942c53ab53 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_94b9cdbac49a4328a25672056555b7dd.setIcon(icon_909a1ba358ff43b88b6b53942c53ab53);
+            
+    
+            var popup_8f2e56d3cef84dd2815f558dae3a40ba = L.popup({maxWidth: '300'});
+
+            
+                var html_a10a30b63c9e4017a48a784f142de476 = $('<div id="html_a10a30b63c9e4017a48a784f142de476" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_8f2e56d3cef84dd2815f558dae3a40ba.setContent(html_a10a30b63c9e4017a48a784f142de476);
+            
+
+            marker_94b9cdbac49a4328a25672056555b7dd.bindPopup(popup_8f2e56d3cef84dd2815f558dae3a40ba);
+
+            
+        
+    
+
+            var marker_26c6dc3c1bb84f72a0a8c9c6f40dadb8 = L.marker(
+                [12.98830366372137,77.57712961194349],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_a2043dd35b11407aaca54181e6cb5b5c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_26c6dc3c1bb84f72a0a8c9c6f40dadb8.setIcon(icon_a2043dd35b11407aaca54181e6cb5b5c);
+            
+    
+            var popup_19a69933959641cf9a596c6d88cef419 = L.popup({maxWidth: '300'});
+
+            
+                var html_b602c3450de14b8382dae60b3ba95bc5 = $('<div id="html_b602c3450de14b8382dae60b3ba95bc5" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_19a69933959641cf9a596c6d88cef419.setContent(html_b602c3450de14b8382dae60b3ba95bc5);
+            
+
+            marker_26c6dc3c1bb84f72a0a8c9c6f40dadb8.bindPopup(popup_19a69933959641cf9a596c6d88cef419);
+
+            
+        
+    
+
+            var marker_30876152b4fd44199efa960ca4ec646a = L.marker(
+                [12.96997259210254,77.6374526658063],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_46c839edf1e14ee1bc7ebf350eb7b247 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_30876152b4fd44199efa960ca4ec646a.setIcon(icon_46c839edf1e14ee1bc7ebf350eb7b247);
+            
+    
+            var popup_8caaf4ced6584e8583c04874ea01f500 = L.popup({maxWidth: '300'});
+
+            
+                var html_2a01519ac4cc457785e9d24542584696 = $('<div id="html_2a01519ac4cc457785e9d24542584696" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_8caaf4ced6584e8583c04874ea01f500.setContent(html_2a01519ac4cc457785e9d24542584696);
+            
+
+            marker_30876152b4fd44199efa960ca4ec646a.bindPopup(popup_8caaf4ced6584e8583c04874ea01f500);
+
+            
+        
+    
+
+            var marker_85d057f5038a4d18a5fdd011e7724d8f = L.marker(
+                [12.972979021383468,77.59997124258985],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_6f4f3ffc0a4b4fce90854efc300945b4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_85d057f5038a4d18a5fdd011e7724d8f.setIcon(icon_6f4f3ffc0a4b4fce90854efc300945b4);
+            
+    
+            var popup_457e16de2af448d8aa45080c0aa027ce = L.popup({maxWidth: '300'});
+
+            
+                var html_c66cf59a62ae4ecd937d696ac0c32025 = $('<div id="html_c66cf59a62ae4ecd937d696ac0c32025" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_457e16de2af448d8aa45080c0aa027ce.setContent(html_c66cf59a62ae4ecd937d696ac0c32025);
+            
+
+            marker_85d057f5038a4d18a5fdd011e7724d8f.bindPopup(popup_457e16de2af448d8aa45080c0aa027ce);
+
+            
+        
+    
+
+            var marker_70b7830ba5dd4ffb937d62efdc1fc8ea = L.marker(
+                [12.978144481391702,77.599222834094],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_f8ca9eecd8c1489781f2fd1610fe8c94 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_70b7830ba5dd4ffb937d62efdc1fc8ea.setIcon(icon_f8ca9eecd8c1489781f2fd1610fe8c94);
+            
+    
+            var popup_97aace44dffe4abcbad2bfbefd770cdc = L.popup({maxWidth: '300'});
+
+            
+                var html_c4ca099f05844b23a170fdff7b0604ae = $('<div id="html_c4ca099f05844b23a170fdff7b0604ae" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_97aace44dffe4abcbad2bfbefd770cdc.setContent(html_c4ca099f05844b23a170fdff7b0604ae);
+            
+
+            marker_70b7830ba5dd4ffb937d62efdc1fc8ea.bindPopup(popup_97aace44dffe4abcbad2bfbefd770cdc);
+
+            
+        
+    
+
+            var marker_8d8be5e837e74a8db3d218ef060c188b = L.marker(
+                [12.911471798108657,77.58699744484541],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6bd615cedfd24f70b99aff96fc814991);
+            
+    
+
+                var icon_099c2fb611d34a2a8b2a193723f19638 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8d8be5e837e74a8db3d218ef060c188b.setIcon(icon_099c2fb611d34a2a8b2a193723f19638);
+            
+    
+            var popup_9935bb9a02ff4e8a8f36fbb57fa486da = L.popup({maxWidth: '300'});
+
+            
+                var html_879ce0123ea34321b09d6145acb22b6b = $('<div id="html_879ce0123ea34321b09d6145acb22b6b" style="width: 100.0%; height: 100.0%;">Eating places</div>')[0];
+                popup_9935bb9a02ff4e8a8f36fbb57fa486da.setContent(html_879ce0123ea34321b09d6145acb22b6b);
+            
+
+            marker_8d8be5e837e74a8db3d218ef060c188b.bindPopup(popup_9935bb9a02ff4e8a8f36fbb57fa486da);
+
+            
+        
+</script>
