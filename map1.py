@@ -25,7 +25,7 @@ for place in data["response"]["groups"][0]["items"]:
 location = []
 location.append(li[0]["lat"])
 location.append(li[0]["long"])
-map=folium.Map(location=location,zoom_start = 10,tiles = "Mapbox Bright")
+map=folium.Map(location=location,zoom_start = 6,tiles = "Mapbox Bright")
 
 fg = folium.FeatureGroup(name="My Map")
 
@@ -33,7 +33,12 @@ for places in li:
     temp = []
     temp.append(places["lat"])
     temp.append(places["long"])
-    fg.add_child(folium.Marker(location=temp,popup = "Eating places",icon = folium.Icon(color="green")))
+    temp1 = places["name"]
+    fg.add_child(folium.Marker(location=temp,popup = folium.Popup(temp1,parse_html=True),icon = folium.Icon(color="green")))
+
+fg.add_child(folium.GeoJson(data=open("world.json","r",encoding="utf-8-sig").read(),
+style_function=lambda x: {'fillColor':'yellow' if x['properties']['POP2005']<10000000
+else 'orange' if 10000000<=x['properties']['POP2005'] < 20000000 else 'red'}))
 
 map.add_child(fg)
 
